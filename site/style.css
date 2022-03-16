@@ -1,0 +1,86 @@
+/* ---- Magic begins ----*/
+/* Use flex and set auto margin */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  .long {
+    /* Remove this, to see that the footer flows normal for long pages */
+    display: none;
+  }
+  
+  /* ---- Magic ends ----*/
+  /* Some base styling for the demo */
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .form-box{
+    margin-left:36%;
+    width: 400px;
+    margin-top:150px;
+    
+  }
+  
+  .cont-box{
+    text-align: center;
+    
+  }
+  i.fab.fa-twitter{
+    color: black;
+  }
+  /*.fa.fa-twitter {
+    padding: 12px;
+    font-size: 30px;
+    width: 27px; 
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    border-radius: 50%;
+    background: transparent;
+    color: #55ACEE
+  }*/
+  .fa {
+    padding: 13px;
+    font-size: 30px;
+    width: 42px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 50%
+  }
+  
+  .fa-linkedin {
+    background: transparent;
+    color: white;
+  }
+  
+  .fa-linkedin:hover{
+    background: #007bb5;
+    color: white;
+    transition-duration: 0.35s;
+  }
+  
+  .fa-facebook {
+    background: transparent;
+    color: white;
+  }
+  
+  .fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    transition-duration: 0.2s;
+  }
+  
+  .page {
+    padding-left : 4%;
+    padding-right: 4%;
+  }
